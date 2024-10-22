@@ -1,5 +1,6 @@
 from damdata_parse.arg_parse import parse_args
 from damdata_parse.df_creator import starter_df
+from damdata_parse.qc_checker import whole_process as qc_checker
 
 
 def main():
@@ -13,6 +14,12 @@ def main():
         input_dir = args.dir
         output = args.output
         starter_df(input_dir, output)
+
+    if mode == 'generate_db':
+        samplesheet = args.samplesheet
+        if qc_checker(samplesheet):
+            print('Passed QC')
+
 
     else:
         print("Mode is invalid. Current supported modes are: create_csv")

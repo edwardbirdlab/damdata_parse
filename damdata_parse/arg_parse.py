@@ -11,6 +11,7 @@ def parse_args():
     parser.add_argument('-c', '--csv', type=str, help='Path to input csv')
     parser.add_argument('-d', '--dir', type=str, help='Path to input directory')
     parser.add_argument('-o', '--output', type=str, help='output filename')
+    parser.add_argument('-s', '--samplesheet', type=str, help='samplesheet input')
 
 
     # Optional args
