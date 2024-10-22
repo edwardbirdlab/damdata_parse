@@ -9,6 +9,8 @@ def parse_args():
 
     # Optional basd on mode
     parser.add_argument('-c', '--csv', type=str, help='Path to input csv')
+    parser.add_argument('-d', '--dir', type=str, help='Path to input directory')
+    parser.add_argument('-o', '--output', type=str, help='output filename')
 
 
     # Optional args

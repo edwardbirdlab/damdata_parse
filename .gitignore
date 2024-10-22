@@ -320,3 +320,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/Test_Data/

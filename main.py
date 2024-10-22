@@ -1,4 +1,5 @@
 from damdata_parse.arg_parse import parse_args
+from damdata_parse.df_creator import starter_df
 
 
 def main():
@@ -8,11 +9,13 @@ def main():
     # parse the mode to run in
     mode = args.mode
 
-    if mode == 'parse':
-        print("Cool mode")
+    if mode == 'create_csv':
+        input_dir = args.dir
+        output = args.output
+        starter_df(input_dir, output)
 
     else:
-        print("Mode is invalid. Current supported modes are: prase")
+        print("Mode is invalid. Current supported modes are: create_csv")
 
 
 # Step 5: Call the 'main' function when the script is executed
