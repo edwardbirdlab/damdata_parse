@@ -1,0 +1,17 @@
+condition,type,path
+PBS_AUG,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\AugFour\AugFourCTM004.txt
+BTV_AUG,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\AugFour\AugFourCTM005.txt
+VSV_AUG,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\AugFour\AugFourCTM006.txt
+CTRL_AUG,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\AugFour\AugFourCTM007.txt
+BTV_JUL,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JulyFour\JulyFourCTM004.txt
+VSV_JUL,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JulyFour\JulyFourCTM005.txt
+CTRL_JUL,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JulyFour\JulyFourCTM006.txt
+PBS_JUL,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JulyFour\JulyFourCTM007.txt
+VSV_JUN,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JuneFour\JuneFourCTM004.txt
+BTV_JUN,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JuneFour\JuneFourCTM005.txt
+PBS_JUN,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JuneFour\JuneFourCTM006.txt
+CTRL_JUN,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\JuneFour\JuneFourCTM007.txt
+CTRL_SEP,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\SeptFour\CTSept4CTM004.txt
+VSV_SEP,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\SeptFour\CTSept4CTM005.txt
+PBS_SEP,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\SeptFour\CTSept4CTM006.txt
+BTV_SEP,CT,C:\Users\edwardbird\Documents\GitHub\damdata_parse\damdata_parse\ESA_Data\SeptFour\CTSept4CTM007.txt

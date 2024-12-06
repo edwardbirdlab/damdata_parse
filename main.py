@@ -15,7 +15,7 @@ def main():
         output = args.output
         starter_df(input_dir, output)
 
-    if mode == 'generate_db':
+    elif mode == 'generate_db':
         samplesheet = args.samplesheet
         if qc_checker(samplesheet):
             print('Passed QC')

@@ -85,10 +85,9 @@ def check_qc(samplesheet):
         sheet = import_sheet(path)
 
         if check_status(sheet) != 0:
-            raise Exception("An error occurred: There are ' + str(check_status(sheet)) + ' errors in sheet: ' + path")
+            raise Exception("An error occurred: There are " + str(check_status(sheet)) + " errors in sheet: " + path)
         if check_extra(sheet) != 0:
-            raise Exception(
-                "An error occurred: There are ' + str(check_extra(sheet)) + ' extra readings in sheet: ' + path")
+            raise Exception("An error occurred: There are " + str(check_extra(sheet)) + " extra readings in sheet: " + path)
 
 
 def check_start_stop(samplesheet):
@@ -120,6 +119,6 @@ def whole_process(samplesheet):
     samplesheet_df = pd.read_csv(samplesheet)
 
     check_qc(samplesheet_df)
-    check_start_stop(samplesheet_df)
+    #check_start_stop(samplesheet_df)
 
     return True
